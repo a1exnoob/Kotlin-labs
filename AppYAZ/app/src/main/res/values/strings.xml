@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UAZ Models</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="app_title">UAZ Models</string>
+    <string name="model_description_name">Name:</string>
+    <string name="model_name">Model name</string>
+    <string name="model_cost">Model cost</string>
+    <string name="model_description">Model description</string>
+    <string name="model_description_cost">Price:</string>
+    <string name="model_description_description">Description:</string>
+    <string name="model_edit_name">Name:</string>
+    <string name="model_edit_cost">Price:</string>
+    <string name="model_edit_description">Description:</string>
+    <string name="model_edit_hint_name">Enter model name…</string>
+    <string name="model_edit_hint_cost">Enter price…</string>
+    <string name="model_edit_hint_description">Enter description…</string>
+    <string name="model_item_name">ModelName</string>
+    <string name="model_item_cost">ModelCost</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_back">Back</string>
+    <string name="action_save">Save</string>
+    <string name="toast_saved">Changes saved</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_continue">Continue</string>
+    <string name="menu_title">Main menu</string>
+    <string name="menu_open_list">Open list</string>
+    <string name="menu_toggle_lang">Switch language</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="back_to_menu">Back to menu</string>
+</resources>
