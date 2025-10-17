@@ -18,6 +18,7 @@
 
     <Button
         android:id="@+id/buttonOpenList"
+        style="@style/Widget.AppYAZ.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/menu_open_list"
@@ -30,6 +31,7 @@
 
     <Button
         android:id="@+id/buttonToggleLang"
+        style="@style/Widget.AppYAZ.Button.Secondary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/menu_toggle_lang"

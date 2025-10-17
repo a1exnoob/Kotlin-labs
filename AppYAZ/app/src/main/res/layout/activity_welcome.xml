@@ -17,6 +17,7 @@
 
     <Button
         android:id="@+id/buttonContinue"
+        style="@style/Widget.AppYAZ.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_continue"

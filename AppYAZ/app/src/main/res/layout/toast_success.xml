@@ -4,13 +4,13 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="12dp"
-    android:background="?attr/colorPrimary">
+    android:background="@color/primary_color">
 
     <TextView
         android:id="@+id/textToast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="?attr/colorOnPrimary"
+        android:textColor="@color/on_primary"
         android:textStyle="bold"
         android:textSize="16sp"/>
 </LinearLayout>
