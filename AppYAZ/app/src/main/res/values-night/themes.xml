@@ -1,5 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.AppYAZ" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AppYAZ" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="android:colorBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:statusBarColor">@color/status_bar_color</item>
+
+        
+        <!-- Цвета для кнопок -->
+        <item name="materialButtonStyle">@style/Widget.AppYAZ.Button</item>
+        <item name="buttonStyle">@style/Widget.AppYAZ.Button</item>
+    </style>
+
+    <style name="Theme.AppYAZ" parent="Base.Theme.AppYAZ" />
+
+    <style name="Widget.AppYAZ.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+    </style>
+
+    <style name="Widget.AppYAZ.Button.Secondary" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/secondary_button_background</item>
+        <item name="android:textColor">@color/secondary_button_text</item>
     </style>
 </resources>

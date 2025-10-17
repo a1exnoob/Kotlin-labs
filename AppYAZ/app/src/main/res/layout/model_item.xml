@@ -11,7 +11,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        app:cardBackgroundColor="?attr/colorSurface"
+        app:cardBackgroundColor="@color/surface_color"
         app:cardCornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:paddingVertical="5dp"
                     android:text="@string/model_item_name"
-                    android:textColor="?attr/colorOnSurface"
+                    android:textColor="@color/on_surface_color"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="@string/model_item_cost"
-                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:textColor="@color/on_surface_color"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -64,7 +64,7 @@
                 app:icon="@android:drawable/ic_delete"
                 app:iconGravity="textStart"
                 app:iconPadding="0dp"
-                app:iconTint="?attr/colorOnSurfaceVariant"
+                app:iconTint="@color/on_surface_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/linearLayout"

@@ -115,21 +115,22 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <Button
-                android:id="@+id/buttonEdit"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_weight="1"
-                android:text="@string/action_edit" />
+				android:id="@+id/buttonEdit"
+				style="@style/Widget.AppYAZ.Button.Secondary"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="8dp"
+				android:layout_weight="1"
+				android:text="@string/action_edit" />
 
-            <Button
-                android:id="@+id/buttonBack"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_weight="1"
-                android:text="@string/action_back" />
-
+			<Button
+				android:id="@+id/buttonBack"
+				style="@style/Widget.AppYAZ.Button"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="8dp"
+				android:layout_weight="1"
+				android:text="@string/action_back" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

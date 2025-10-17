@@ -123,6 +123,7 @@
 
             <Button
                 android:id="@+id/buttonSave"
+                style="@style/Widget.AppYAZ.Button.Secondary"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
@@ -131,6 +132,7 @@
 
             <Button
                 android:id="@+id/buttonBackEdit"
+                style="@style/Widget.AppYAZ.Button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"

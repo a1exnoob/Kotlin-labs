@@ -7,4 +7,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+	
+    <color name="primary_color">#283618</color>
+    <color name="secondary_color">#bc6c25</color>
+    <color name="background_color">#dda15e</color>
+    <color name="text_color">#fefae0</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="surface_color">#bc6c25</color>
+    <color name="on_surface_color">#283618</color>
+    
+    <!-- Дополнительные цвета для кнопок -->
+    <color name="button_background">#283618</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="secondary_button_background">#bc6c25</color>
+    <color name="secondary_button_text">#FFFFFF</color>
 </resources>
