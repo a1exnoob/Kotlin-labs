@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Модели УАЗ</string>
+    <string name="hello_blank_fragment">Привет</string>
+    <string name="app_title">Модели УАЗ</string>
+    <string name="model_description_name">Название:</string>
+    <string name="model_name">Название модели</string>
+    <string name="model_cost">Стоимость модели</string>
+    <string name="model_description">Описание модели</string>
+    <string name="model_description_cost">Стоимость:</string>
+    <string name="model_description_description">Описание:</string>
+    <string name="model_edit_name">Название:</string>
+    <string name="model_edit_cost">Стоимость:</string>
+    <string name="model_edit_description">Описание:</string>
+    <string name="model_edit_hint_name">Введите название модели</string>
+    <string name="model_edit_hint_cost">Введите стоимость авто</string>
+    <string name="model_edit_hint_description">Введите описание</string>
+    <string name="model_item_name">Название</string>
+    <string name="model_item_cost">Стоимость</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_back">Назад</string>
+    <string name="action_save">Сохранить</string>
+    <string name="toast_saved">Сохранения сделаны</string>
+    <string name="welcome_title">Добро пожаловать</string>
+    <string name="welcome_continue">Продолжить</string>
+    <string name="menu_title">Главное меню</string>
+    <string name="menu_open_list">Открыть список</string>
+    <string name="menu_toggle_lang">Сменить язык</string>
+    <string name="dark_theme">Темная тема</string>
+    <string name="back_to_menu">Вернуться в меню</string>
+</resources>
